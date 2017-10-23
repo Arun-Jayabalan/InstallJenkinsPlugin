@@ -28,7 +28,7 @@ As this is optional feature, If we dont want to restart the jenkins , please com
 Usage
 -----
         
-             Usage: /Users/arun/projects/platform/Python/InstallJenkinsPlugin.sh plugin1 [plugin ...]
+             Usage: /Users/guest/projects/platform/Python/InstallJenkinsPlugin.sh plugin1 [plugin ...]
 
 Execution
 ---------
@@ -47,28 +47,28 @@ GetRepoLastUpdatedReport.py  maven-plugin
 
 Sample Output for Error handling for git plugin
 -----------------------------------------------
-[arun@Arun-Jayabalan-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh 
+[guest@guest-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh 
 ******************************************
 
 Usage: ./InstallJenkinsPlugin.sh plugin1 
 
-[arun@Arun-Jayabalan-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh 
+[guest@guest-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh 
 ******************************************
 
 Usage: ./InstallJenkinsPlugin.sh plugin1 
 
 ******************************************
 
-    [arun@Arun-Jayabalan-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh
+    [guest@guest-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh
     ******************************************
     
     Usage: ./InstallJenkinsPlugin.sh plugin1 
     
     ******************************************
-    [arun@Arun-Jayabalan-3:~/projects/platform/Python] $ 
+    [guest@guest-3:~/projects/platform/Python] $ 
 
     
-    [arun@Arun-Jayabalan-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh maven-plugin
+    [guest@guest-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh maven-plugin
     Checking installation status of Plugin  maven-plugin
     Plugin maven-plugin  Already installed 
      maven-plugin : --- SKIPPED -- 
@@ -86,7 +86,7 @@ Usage: ./InstallJenkinsPlugin.sh plugin1
      token-macro : --- SKIPPED -- 
     Granting permissions
    
-    [arun@Arun-Jayabalan-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh git
+    [guest@guest-3:~/projects/platform/Python] $ ./InstallJenkinsPlugin.sh git
     Checking installation status of Plugin  git
     Plugin git  Already installed 
      git : --- SKIPPED -- 
